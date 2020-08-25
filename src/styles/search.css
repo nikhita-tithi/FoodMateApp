@@ -1,0 +1,54 @@
+.parent {
+  border-radius: 25px;
+  height: 50px;
+  background: #ffffff9e;
+  width: 600px;
+  border: 1px solid #80808033;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  margin-left: 25%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.ibox {
+  margin-top: 10px;
+}
+
+.drop1 {
+  margin-top: 10px;
+}
+
+.drop2 {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .parent {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .ibox {
+    padding: 5px;
+    margin: 3%;
+  }
+
+  .drop1 {
+    padding: 5px;
+    margin: 2%;
+  }
+
+  .drop2 {
+    padding: 5px;
+    margin: 2%;
+  }
+}

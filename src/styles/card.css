@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+.restaurant-card {
+  background: #fff;
+  width: 300px;
+  height: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  text-align: center;
+  -webkit-box-shadow: 0px 15px 88px -37px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 0px 15px 88px -37px rgba(0, 0, 0, 0.17);
+  box-shadow: 0px 15px 88px -37px rgba(0, 0, 0, 0.17);
+  overflow: hidden;
+}
+
+.card-header {
+  height: 50%;
+  background: #000
+    url(http://res.cloudinary.com/jenelle-miller/image/upload/v1518632582/tupelo-cafe_a7buc9.png)
+    center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.card-body {
+  position: relative;
+  padding: 24px;
+  font-family: "Lato";
+  font-size: 0.9rem;
+  height: auto;
+}
+
+.rating ul {
+  padding: 10px;
+}
+.rating li {
+  display: inline;
+  color: #efa127;
+}
